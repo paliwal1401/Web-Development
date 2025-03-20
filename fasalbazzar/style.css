@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.header {
+    background-image: url('farm-field.jpg');
+    background-size: cover;
+    color: #FF9100;
+    text-align: center;
+    padding: 90px 270px;
+}
+.nav {
+    background-color: #131c13;
+    padding: 10px;
+    text-align: center;
+}
+.nav a {
+    color: rgb(87, 157, 30);
+    text-decoration: none;
+    padding: 10px;
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+}
+.service img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about, .why-us, .gallery, .testimonials, .contact {
+    margin-top: 40px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
